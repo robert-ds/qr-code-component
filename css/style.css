@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 :root {
 	--White: hsl(0, 0%, 100%);
 	--Light-gray: hsl(212, 45%, 89%);
@@ -31,7 +33,6 @@ body {
 	text-align: center;
 	background-color: var(--White);
 	border-radius: 1rem;
-	box-shadow: 0 .6rem 1rem var(--Grayish-blue);
 }
 
 .container__img {
@@ -42,7 +43,7 @@ body {
 
 .container__paragraph {
 	font-size: 1.2rem;
-	font-family: Outfi;
+	font-family: Outfit;
 }
 
 .container__paragraph--first {
@@ -56,5 +57,10 @@ body {
 	margin-top: 1rem;
 	color: var(--Light-gray);
 	font-weight: 400;
+}
+
+.attribution {
+	font-size: .8rem;
+	font-family: Outfit;
 }
 
